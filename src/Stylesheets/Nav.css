@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orange;
+    min-height: 10vh;
+}
+
+.nav-title{
+    display: flex;
+}
+
+.nav-title:hover{
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list-option{
+    display: flex;
+    margin: 10px;
+}
+
+.nav-list-option:hover{
+    cursor: pointer;
+    color: rgb(58, 58, 228);
+}
