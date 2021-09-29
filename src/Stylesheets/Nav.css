@@ -29,6 +29,8 @@
     margin: 10px;
     border-radius: 15px;
     font-size: 18px;
+    background-color: rgb(181, 181, 251);
+    color: black;
 }
 
 .nav-list-option:link{

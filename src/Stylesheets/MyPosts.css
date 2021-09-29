@@ -1,0 +1,73 @@
+.myposts{
+    display: flex;
+    justify-content: center;
+}
+
+.myposts-image-container{
+    display: flex;
+}
+
+.myposts-image{
+    display: flex;
+    margin: 15px;
+    height: 150px;
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.myposts-image:hover{
+    cursor: pointer;
+    background-color: rgba(206, 203, 203, 0.489);
+}
+
+.myposts-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.post-input{
+    font-size: 18px;
+    width: 35%;
+}
+
+.post-price-input{
+    font-size: 18px;
+    width: 35%;
+}
+
+.post-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 520px;
+}
+
+.mypost-title{
+    margin-bottom: 5px;
+}
+
+.post-cancel-btn{
+    margin: 5px;
+    font-size: 22px;
+    background-color: greenyellow;
+    border-radius: 12px;
+}
+
+.post-cancel-btn:hover{
+    cursor: pointer;
+}
+
+.post-submit-btn{
+    margin: 5px;
+    font-size: 22px;
+    background-color: rgb(223, 78, 56);
+    border-radius: 12px;
+}
+
+.post-submit-btn:hover{
+    cursor: pointer;
+}
