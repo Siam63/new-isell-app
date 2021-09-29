@@ -1,0 +1,82 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-title{
+    margin-top: 50px;
+}
+
+.homepage-popular-title-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.homepage-popular-title{
+    display: flex;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.homepage-popular-title:hover{
+    cursor: pointer;
+    background-color: rgb(202, 236, 247);    
+}
+
+.homepage-searchbar-container{
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-searchbar{
+    justify-content: space-around;
+    text-align: left;
+    font-size: 20px;
+    width: 30%;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.homepage-footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    height: 60vh;
+    width: 100%;
+    margin: 0px;
+}
+
+.homepage-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-image{
+    display: flex;
+    margin: 15px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    height: 200px;
+    width: 250px;
+}
+
+.homepage-image:hover{
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+
+.homepage-image-title{
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-footer-title{
+    display: flex;
+    margin-left: 30px;
+}

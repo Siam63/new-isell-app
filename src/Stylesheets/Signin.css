@@ -1,0 +1,41 @@
+.signin{
+    display: flex;
+    justify-content: center;
+}
+
+.signin-input{
+    display: flex;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.signin-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.button{
+    display: flex;
+    margin: 4px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    margin-left: 163px;
+}
+
+.forgot-password-link:hover{
+    cursor: pointer;
+    color: rgb(73, 73, 230);
+}
+
+.have-account-link:hover{
+    cursor: pointer;
+    color: rgb(73, 73, 230);
+}

@@ -1,0 +1,26 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 45px;
+}
+
+.signup-input{
+    display: flex;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-button{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+}

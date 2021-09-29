@@ -6,7 +6,9 @@ function Nav() {
     return (
         <nav className="nav">
             <div className="nav-title">
-                <h3>iSell</h3>
+                <Link to="/">
+                    <h3>iSell</h3>
+                </Link>
             </div>
            
             <div className="nav-list-container">
