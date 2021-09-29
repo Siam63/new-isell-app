@@ -1,14 +1,13 @@
-.myposts{
+.postitem{
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
-.myposts-image-container{
+.postitem-image-container{
     display: flex;
 }
 
-.myposts-image{
+.postitem-image{
     display: flex;
     margin: 15px;
     height: 150px;
@@ -20,12 +19,12 @@
     padding-top: 100px;
 }
 
-.myposts-image:hover{
+.postitem-image:hover{
     cursor: pointer;
     background-color: rgba(206, 203, 203, 0.489);
 }
 
-.myposts-container{
+.postitem-container{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
@@ -47,7 +46,7 @@
     margin-left: 520px;
 }
 
-.mypost-title{
+.postitem-title{
     margin-bottom: 5px;
 }
 

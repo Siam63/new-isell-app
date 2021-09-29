@@ -9,6 +9,7 @@
     display: flex;
     margin: 5px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .signup-container{
@@ -23,4 +24,16 @@
     justify-content: center;
     text-align: center;
     margin-left: 150px;
+    font-size: 18px;
+}
+
+.have-account-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.have-account-link:hover{
+    cursor: pointer;
+    color: rgb(73, 73, 230);
 }

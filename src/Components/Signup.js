@@ -1,5 +1,7 @@
 import React from 'react';
 import '../Stylesheets/Signup.css';
+import Signin from './Signin';
+import { Link } from 'react-router-dom';
 
 function Signup() {
     return (
@@ -12,10 +14,13 @@ function Signup() {
                     <button className="signup-button">Sign Up</button>
                 </div>
                 <div>
-                    <h3 className="have-account-link">Already have an account?</h3>
+                    <Link to="/signin">
+                        <h3 className="have-account-link">Already have an account?</h3>
+                    </Link>
                 </div>
             </div>
         </div>
+        
     )
 }
 

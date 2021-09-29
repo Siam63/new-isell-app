@@ -1,12 +1,14 @@
 .signin{
     display: flex;
     justify-content: center;
+    font-size: 15px;
 }
 
 .signin-input{
     display: flex;
     margin: 5px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .signin-container{
@@ -19,6 +21,7 @@
 .button{
     display: flex;
     margin: 4px;
+    font-size: 18px;
 }
 
 .button:hover{
@@ -30,12 +33,18 @@
     margin-left: 163px;
 }
 
-.forgot-password-link:hover{
-    cursor: pointer;
-    color: rgb(73, 73, 230);
+.signin-text-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
-.have-account-link:hover{
+.signin-link{
+    justify-content: center;
+    text-align: center;
+}
+
+.signin-link:hover{
     cursor: pointer;
     color: rgb(73, 73, 230);
 }

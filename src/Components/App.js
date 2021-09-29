@@ -1,4 +1,3 @@
-import '../Stylesheets/App.css';
 import Nav from './Nav';
 import Signin from './Signin';
 import Signup from './Signup';

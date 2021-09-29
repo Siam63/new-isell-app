@@ -33,6 +33,10 @@ function HomePage() {
                         <h1 className="homepage-image"></h1>
                         <h2 className="homepage-image-title">Title 3</h2>
                     </div>
+                    <div>
+                        <h1 className="homepage-image"></h1>
+                        <h2 className="homepage-image-title">Title 4</h2>
+                    </div>
                 </div>
                 
             </div>

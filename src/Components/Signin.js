@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Stylesheets/Signin.css';
+import { Link } from 'react-router-dom';
 
 function Signin() {
     return (
@@ -11,9 +12,11 @@ function Signin() {
                     <button className="button">Sign In</button>
                     <button className="button">Sign Up</button>
                 </div>
-                <div>
-                    <h3 className="forgot-password-link">Forgot Password?</h3>
-                    <h3 className="have-account-link">Need to make an account? Click here!</h3>
+                <div className="signin-text-container">
+                    <h3 className="signin-link">Forgot Password?</h3>
+                    <Link to="/signup">
+                        <h3 className="signin-link">Need to make an account? Click here!</h3>
+                    </Link>
                 </div>
             </div>
         </div>
