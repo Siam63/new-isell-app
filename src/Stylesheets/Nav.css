@@ -37,12 +37,9 @@
     text-decoration: none;
 }
 
-.nav-list-option:visited{
-    text-decoration: none;
-}
-
 .nav-list-option:hover{
     cursor: pointer;
     color: rgb(58, 58, 228);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(244, 244, 244);
+    transition: 0.2s;
 }

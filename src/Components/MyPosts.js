@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Stylesheets/MyPosts.css';
 import MyPostServiceCard from './MyPostServiceCard';
-import {Posts} from '../DummyData';
+import { Posts } from '../DummyData';
 
 function MyPosts() {
     return (

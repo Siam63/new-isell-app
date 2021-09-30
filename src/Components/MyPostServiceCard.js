@@ -2,22 +2,21 @@ import React from 'react';
 import '../Stylesheets/MyPostServiceCard.css';
 
 function MyPostServiceCard({post}) {
-    console.log(post);
     return (
         <div className="my-post-service-card">
             <div className="card-containers-container">
                 <div className="card-container">
                     <div>
-                        <h2 className="postcard-image">Image1</h2>
+                        <img src={post.picture1} class="post-image"></img>
                     </div>
                     <div>
-                        <h2 className="postcard-image">Image2</h2>
+                        <img src={post?.picture2} class="post-image"></img>
                     </div>
                     <div>
-                        <h2 className="postcard-image">Image3</h2>
+                        <img src={post?.picture3} class="post-image"></img>
                     </div>
                     <div>
-                        <h2 className="postcard-image">Image4</h2>
+                        <img src={post?.picture4} class="post-image"></img>
                     </div>
                 </div>
                 <div className="postcard-text-container">
@@ -31,7 +30,7 @@ function MyPostServiceCard({post}) {
                         <h2 className="postcard-text">{post.condition}</h2>
                     </div>
                     <div className="postcard-price-container">
-                        <h2 className="postcard-price-text">{post.price}</h2>
+                        <h2 className="postcard-price-text">${post.price}.00</h2>
                     </div>
                 </div>
             </div>
