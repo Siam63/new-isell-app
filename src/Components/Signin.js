@@ -10,7 +10,9 @@ function Signin() {
                 <input class="signin-input" placeholder="Password"></input>
                 <div className="btn-container">
                     <button className="button">Sign In</button>
-                    <button className="button">Sign Up</button>
+                    <Link to="/signup">
+                        <button className="button">Sign Up</button>
+                    </Link>
                 </div>
                 <div className="signin-text-container">
                     <h3 className="signin-link">Forgot Password?</h3>
