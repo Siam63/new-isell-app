@@ -1,10 +1,11 @@
 .my-post-service-card{
     display: flex;
-    background-color: rgb(186, 222, 186);
+    background-color: rgb(187, 236, 254);
     border-style: solid;
     border-width: 1px;
     border-radius: 15px;
-    margin: 10px;
+    margin: 8px;
+    width: 80%;
 }
 
 .card-container{
@@ -41,7 +42,7 @@
     border-width: 1px;
     background-color: white;
     padding: 5px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 15px;
     padding: 10px;
 }
@@ -54,7 +55,7 @@
     border-width: 1px;
     background-color: white;
     padding: 5px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 15px;
     padding: 10px;
 }
@@ -66,7 +67,21 @@
     border-width: 1px;
     background-color: white;
     padding: 5px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 15px;
     padding: 10px;
+}
+
+.postcard-button-container{
+    display: flex;
+}
+
+.postcard-button{
+    display: flex;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.postcard-button:hover{
+    cursor: pointer;
 }

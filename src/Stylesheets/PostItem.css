@@ -1,6 +1,7 @@
 .postitem{
     display: flex;
     justify-content: center;
+    background-color: rgb(246, 246, 246);
 }
 
 .postitem-image-container{
@@ -17,6 +18,7 @@
     justify-content: center;
     text-align: center;
     padding-top: 100px;
+    background-color: white;
 }
 
 .postitem-image:hover{

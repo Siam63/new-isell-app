@@ -1,6 +1,10 @@
 .signin{
     display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(239, 239, 239);
     justify-content: center;
+    align-items: center;
     font-size: 15px;
 }
 
@@ -16,6 +20,12 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 45px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    width: 30vw;
+    height: 30vh;
+    padding: 10px;
 }
 
 .button{
@@ -30,7 +40,12 @@
 
 .btn-container{
     display: flex;
-    margin-left: 163px;
+    justify-content: right;
+}
+
+.btn-containers-container{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .signin-text-container{
@@ -42,6 +57,7 @@
 .signin-link{
     justify-content: center;
     text-align: center;
+    margin: 10px;
 }
 
 .signin-link:hover{

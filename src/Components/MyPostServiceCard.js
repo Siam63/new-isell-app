@@ -32,6 +32,14 @@ function MyPostServiceCard({post}) {
                     <div className="postcard-price-container">
                         <h2 className="postcard-price-text">${post.price}.00</h2>
                     </div>
+                    <div className="postcard-button-container">
+                        <div>
+                            <button className="postcard-button">Edit Ad</button>
+                        </div>
+                        <div>
+                            <button className="postcard-button">Delete Ad</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
