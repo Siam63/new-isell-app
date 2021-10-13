@@ -46,7 +46,8 @@
 .homepage-footer-container{
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    /* background-color: rgb(225, 247, 255); */
+    background-color: rgb(252, 89, 89);
     height: 60vh;
     width: 100%;
     margin: 0px;
